@@ -4,6 +4,9 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    width: 1440px;
+    /* overflow-x: hidden; */
+
     
   }
 .header {
@@ -572,19 +575,21 @@ margin-left: -25px;
 
 
 @media (min-width: 320px) and (max-width: 425px) {
+    body{
+        width: auto;
+    }
     
     .header{
         height: 550px;
-        width: auto;
 
         
     }
     .logo{
-        width: 200px;
+        width: 100px;
         margin-left : -30px;
 
     }.getstarted{
-        margin-top: -35px;
+        margin-top: -37px;
         margin-left: -150px;
     }.getstarted img{
         width: 80px;
@@ -646,11 +651,83 @@ margin-left: -25px;
         display: none;
     }.subclients p{
         font-size: 20px;
+        padding-left: -30px;
+    }.clients{
+        height: 250px;
     }.subclients{
         display: table-row;
         margin-left: -10px;
-    }
-        
-    
+    }.clientslogo img{
+        width: 40px;
+    }.clientslogo{
+        gap: 20px;
+        margin-left: -140px;
 
+    }.clientslogo1 img{
+        width: 40px;
+    }.clientslogo1{
+        gap: 20px;
+        margin-left: -140px;
+
+    }.clientslogo2 img{
+        width: 40px;
+    }.clientslogo2{
+        gap: 20px;
+        margin-left: -140px;
+
+    }.review1 img{
+        width: 300px;
+        margin-left: -50px;
+
+    }.review2{
+        margin-top: 100px;
+        display: table-row;
+        width: 200px;
+    }.review3{
+        width: 200px;
+    }.review2 img {
+        width: 250px;
+        margin-left: -20px;
+    }.review {
+        height: 300px;
+    }.bloghead1{
+        font-size: 20px;
+        margin-left: -60px;
+    }.bloghead2 p{
+        margin-top: 70px;
+        margin-left: -650px;
+    }.blogpic{
+        margin-left: -60px;
+    }.blogpic1 p{
+        font-size: 15px;
+        
+    }.blog{
+        height: 700px;
+    }.tools{
+        display:none;
+    }.case1 p{
+        /* font-size: 25px; */
+        margin-left: -55px;
+    }.casehead2{
+        margin-top: 20px;
+        font-size: 10px;
+    }.case p{
+        font-size: 20px;
+    }.caseimg1 img{
+        width: 300px;
+        margin-left: -60px;
+    }.casepara2{
+        font-size: 20px;
+    }.casepara1 {
+        font-size: 20px;
+    }
+
+        
+}
+
+@media (min-width: 512px ) and (max-width: 1024px){
+    *{
+        
+
+    }
 }
