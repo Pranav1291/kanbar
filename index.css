@@ -1,0 +1,656 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+  }
+.header {
+    width: 1440px;
+    height : 808px;
+    background-color: #F4F3F3;
+    
+    
+}
+.navbar {
+    width: 1440px;
+    height: 100px;
+    /* display: flex; */
+}
+.logo {
+    padding-left: 80px;
+    padding-top: 42.85px;
+    padding-bottom: 25.85px;
+}
+.navbuttons{
+    width: 503px;
+    height: 35px;
+    padding-top: 41px;
+    margin-top: -100px;
+    padding-left: 857px;
+    padding-right: 80px;
+    display: flex;
+    gap: 41px;
+    
+
+}
+.getstarted {
+    width: 114px;
+    height: 35px;
+    
+
+}
+
+.navbtns {
+    width: 334px;
+    height : 15px;
+    display: flex;
+    gap: 42px;
+    padding-top: 10px;
+}
+.drive {
+    width: 650.54px;
+    height: 463.85px;
+    padding-top: 63.33px;
+    padding-left: 80px;
+}
+
+.drivehead {
+    width: 650.54px;
+    height: 381.85px;
+}
+.letsstartbtn{
+    padding-top: 32px;
+
+}
+.form{
+    width: 301px;
+    height: 546px;
+    padding-left: 969px;
+    padding-top: 63.33px;
+    
+}
+form{
+    background-color: white;
+}
+.form label{
+    font-weight: 400px;
+    font-size: 12px;
+    opacity: 60%;
+    margin-left: 20px;
+}
+.form label input{
+    width: 351px;
+    height: 45px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: grey;
+    margin-inline: 20px;
+
+}
+.interested{
+    width: 351px;
+    height: 99px;
+
+}
+.interested input {
+    height: 80px;
+    width: 250px;
+}
+.services {
+    width:1440px;
+    height: auto;
+    background-color: #F4F3F3;
+}
+.servicehead {
+    width: 1280px;
+    height: 105px;
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 38.4px;
+    
+    
+}
+h2{
+    font-weight: 100px;
+    font-size: 32px;
+    opacity: 80%;
+    
+}
+.servicepara {
+    padding-left: 882.61px;
+    margin-top: -80px;
+
+}
+.serviceicon {
+    width: 270px;
+    height: 460px;
+}
+.serviceiconmain {
+    display: flex;
+    gap: 100px;
+    padding-top: 56px;
+    padding-left: 170px;
+    padding-bottom: 80px;
+}
+.serviceicon1{
+    width: 250px;
+    height: 306px;
+    border-radius: 9px;
+    background-color: #09060F;
+    padding-left: 54px;
+    padding-top: 27.96px;
+}
+.serviceiconmain .para1{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #FFFFFF;
+    
+}
+.paid{
+    display: flex;
+    gap: 80px;
+    padding-top: 44.39px;
+}
+.paid2 {
+    display: flex;
+    gap: 80px;
+    padding-top: 25px;
+}
+.paid3 {
+    display: flex;
+    gap: 80px;
+    padding-top: 60px;
+
+}
+.para {
+    color: #000000;
+    font-weight: 400px;
+    line-height: 25.5px;
+    font-size: 17px;
+    opacity: 80%;
+
+}
+.serviceicon1 {
+    transition: transform 1s ease-in-out;
+    will-change: transform;
+
+}
+
+.serviceicon1:hover .arrow1 {
+    transform: translateX(10px);
+}
+.serviceicon1 {
+    transition: transform 1s ease-in-out;
+    will-change: transform;
+}
+
+.serviceicon1:hover .arrow2 {
+    transform: translateX(10px);
+}
+.serviceicon1 {
+    transition: transform 1s ease-in-out;
+    will-change: transform;
+}
+
+.serviceicon1:hover .arrow3 {
+    transform: translateX(10px);
+}
+
+.chart{
+    width: 1440px;
+    height: 879px;
+}
+.clients{
+    width: 1440px;
+    height: 651px;
+}
+.subclients{
+    width: 1069.56px;
+    height: 504.14px;
+    padding-top: 73.43px;
+    padding-left: 185.22px;
+    justify-items: center;
+}
+.subclients p{
+    font-weight: 900px;
+    font-size: 32px;
+    line-height: 38.4px;
+    /* justify-items: center; */
+    padding-inline: 368.78px;
+    padding-bottom: 56px;
+}
+.clientslogo {
+    display: flex;
+    justify-content: center;
+    gap: 78.21px;
+}
+.clientslogo1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 46.28px;
+
+}
+.clientslogo2 {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    padding-top: 46.28px;
+
+}
+.review {
+    width: 1440px;
+    height: 519px;
+    display: flex;
+    overflow-y: hidden;
+    position: relative;
+
+
+    
+
+}
+.review1 {
+    width: 505px;
+    height: 224.77px;
+    padding-top: 147.11px;
+    padding-left: 100px;
+    
+}
+.review2{
+    width: 592.64px;
+    height: 1458px;
+    padding-top: 99.98px;
+    padding-left: 730.36px;
+    line-height: 47px;
+    padding-right: 117px;
+    position: absolute;
+    animation: scroll-vertically 15s linear infinite;
+}
+@keyframes scroll-vertically {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -100%;
+    }
+  }
+
+.review3{
+    width: 592.64px;
+    height: 254px;
+    gap: 8px;
+    background-color: #FAF9F9;
+
+   
+
+
+    
+}
+
+.review4{
+    width: 592.64px;
+    height: 254px;
+    background-color: #FAF9F9;
+    margin-top: 47px;
+}
+.review5{
+    width: 592.64px;
+    height: 254px;
+    background-color: #FAF9F9;
+    margin-top: 47px;
+
+}
+.review2 img{
+padding-inline: 71px;
+padding-top:35px;
+}
+.blog{
+    width: 1440px;
+    height: 871px;
+}
+.blog1{
+    width: 1280px;
+    height: 673px;
+}
+.blog2{
+    width: 1280px;
+    height: 587px;
+}
+.bloghead{
+    width: 1240px;
+    height: 42px;
+    gap: 450px;
+    padding-top: 94px;
+    display: flex;
+    padding-left: 80px;
+    
+}
+.bloghead1{
+    color: #1D1D1D;
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 38.4px;
+}.bloghead2{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    opacity: 80%;
+    /* padding-left: 150px; */
+}
+.blogpic{
+    width: 1280px;
+    height: 460px;
+    gap: 32px;
+    display: flex;
+    padding-top: 85px;
+    padding-left: 80px;
+    overflow-x: scroll;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}.blogpic1 {
+    width: 366px;
+    height: 460px;
+    gap: 24px;
+    display: inline-block;
+}
+.blogpic1 p{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #050D2B;
+}
+.scroll {
+    padding-left: 1050.91px;
+    padding-top: 44px;
+}
+.tools{
+    width: 1440px;
+    height: 383px;
+}
+.tools1{
+    width: 505px;
+    height: 38px;
+    padding-top: 68.24px;
+    padding-left: 80px;
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+.toolsimg{
+    padding-top: 56.17px;
+    padding-left: 100px;
+}
+.case{
+    width: 1440px;
+    height: 1236px;
+    background-color: #F4F3F3;
+}
+.case1{
+    width: 1280px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-top: 94px;
+}
+.casehead {
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+.case2{
+    width: 1277.81px;
+    height: 464.46px;
+    margin-top: 45.77px;
+    margin-left: 81.1px;
+    border-radius: 8px;
+    gap: 95px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.case2 img {
+    border-radius: 11.04px;
+    padding-left: 26px;
+    padding-top: 28px;
+}
+.case3 {
+    width: 451.88px;
+    height: 280px;
+    gap: 2px;
+    padding-top: 90.23px;
+}
+.casepara1 {
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.casepara2 {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.caseimg {
+margin-left: -25px;
+}
+
+.caseimages{
+    width: 1280px;
+    height: 450px;
+    top: 45.77px;
+    left: 78.9px;
+    display: flex;
+    gap: 43px;
+    padding-left: 78.9px;
+    padding-top: 45.77px;
+
+}
+
+.caseimage1 {
+    width: 398px;
+    height: 450px;
+    border-radius: 18px;
+    gap: 24px;
+    background-color: #FFFFFF;
+
+
+}
+.caseimages img{
+    padding-inline: 16px;
+    padding-top: 20px;
+}
+.caseimage1 p{
+    padding-left: 16px;
+}
+.red {
+    width: 1440px;
+    height: 517px;
+}
+.red1 {
+    width: 1240px;
+    height: 313px;
+    margin-top: 102px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #BE1E1E;
+    justify-items: space-between;
+    z-index: 0;
+
+}
+.red1 p {
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 61.33px;
+    padding-left: 100.22px;
+
+    /* padding-left: 798.08px; */
+}
+.button {
+    padding-left: 100.22px;
+    padding-top: 34.67px;
+    z-index: 1;
+}
+.vector {
+    padding-left: 78.08px;
+    padding-top: 61.33px;
+    z-index: 1;
+}
+.bottomform{
+    width: 1440px;
+    height: 752px;
+    background-color: #F4F3F3;
+
+}
+.bottomform2{
+    width: 924.62px;
+    height: 546px;
+    padding-top: 103px;
+    padding-left: 257.69px;
+    gap: 72px;
+    display: flex;
+}.bottomhead{
+    width: 461.62px;
+    height: 228px;
+    gap: 32px;
+}
+.formbottom{
+    width: 391px;
+    height: 546px;
+    border-radius: 8px;
+    gap: 36px;
+}
+.footer{
+    width: 1440px;
+    height: 470px;
+
+}
+.footer2{
+    width: 659px;
+    height: 320px;
+    padding-top: 75px;
+    padding-left: 390.5px;
+    gap: 30px;
+
+}
+.footerimg{
+    padding-left: 283px;
+
+}
+.footer3{
+    width: 659px;
+    height: 197px;
+    padding-left: 91.05px;
+    padding-top: 30px;
+}
+.footer4{
+    width: 659px;
+    height: 51px;
+    gap: 20px;
+    display: flex;
+    margin-top: -50px;
+
+}
+.footer4 input{
+    border-color: rgb(138, 136, 136);
+    border-radius: 6px;
+    /* border: 0.75px; */
+    width: 386px;
+    height: 45px;
+    opacity: 50%;
+}
+.foot {
+    width: 1440px;
+    height: 644px;
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    
+    .header{
+        height: 550px;
+        width: auto;
+
+        
+    }
+    .logo{
+        width: 200px;
+        margin-left : -30px;
+
+    }.getstarted{
+        margin-top: -35px;
+        margin-left: -150px;
+    }.getstarted img{
+        width: 80px;
+    }
+    .navbuttons{
+        margin-left: -850px;
+        width: 100px;
+        margin-top: -60px;
+    }.navbtns {
+        size :80px;
+    }
+    .form{
+        margin-left: -920px;
+    }.form img{
+        margin-top: 200px;
+        width: 200px;
+    }.services{
+        width: auto;
+
+        display: table-row;
+    }.servicepara{
+        display: none;
+    }
+    .servicehead {
+        width: 300px;
+
+    }.servicehead h2{
+        font-size: 18px;
+        margin-left: -60px;
+   }.serviceicon p{
+    font-size: 15px;
+   }
+    .serviceiconmain{
+        display: table-row;
+        justify-items: center;
+    }
+    .chart img{
+        width: 400px;
+        margin-left: -50px;
+    }.chart {
+        height: 200px;
+        width: auto;
+    }
+    .subclients div{
+        width: 600px;
+    }.subclients p{
+        margin-left: -250px;
+    }.review2 {
+        margin-left: -250px;
+    }.drivehead img{
+        width: 300px;
+    }.drivehead{
+
+
+    }.drive{
+        margin-left: -70px;
+
+    }.letsstartbtn img{
+        display: none;
+    }.subclients p{
+        font-size: 20px;
+    }.subclients{
+        display: table-row;
+        margin-left: -10px;
+    }
+        
+    
+
+}
