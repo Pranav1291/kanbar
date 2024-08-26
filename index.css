@@ -12,7 +12,8 @@ body {
 .header {
     width: 1440px;
     height : 808px;
-    background-color: #F4F3F3;
+    background-color: ##F4F3F3;
+    overflow: hidden;
     
     
 }
@@ -68,13 +69,13 @@ body {
 
 }
 .form{
-    width: 301px;
+    width: 391px;
     height: 546px;
     padding-left: 969px;
     padding-top: 63.33px;
     
 }
-form{
+.form{
     background-color: white;
 }
 .form label{
@@ -83,14 +84,18 @@ form{
     opacity: 60%;
     margin-left: 20px;
 }
-.form label input{
+.form3 input{
     width: 351px;
     height: 45px;
     border: 1px;
     border-radius: 4px;
-    border-color: grey;
+    /* border-color: grey; */
     margin-inline: 20px;
+    margin-left: -3px;
 
+}.consultbutton{
+    padding-top: 36px;
+    margin-inline: -20px;
 }
 .interested{
     width: 351px;
@@ -109,8 +114,9 @@ form{
 .servicehead {
     width: 1280px;
     height: 105px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 80px;
+    margin-bottom: 20px;
     line-height: 38.4px;
     
     
